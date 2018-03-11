@@ -76,7 +76,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void multipleFileAction(ActionEvent event) {
         FileChooser fc = new FileChooser();
-        fc.setInitialDirectory(new File("C:\\Users\\sharmaji\\Desktop"));
+        fc.setInitialDirectory(new File("C:\\Users\\agsxpro\\Desktop"));
         List<File> selectedFiles = fc.showOpenMultipleDialog(null);        
  
         backgroundThread = new Service<Void>() {
